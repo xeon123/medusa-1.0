@@ -1,0 +1,10 @@
+*.pyc
+tags
+dist
+.ropeproject/
+workbench.xmi
+logs/
+manager/build
+manager/files.txt
+.idea/
+medusa-env/

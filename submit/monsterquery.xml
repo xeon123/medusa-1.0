@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<data>
+  <job>
+    <id>1</id>
+    <command>/home/xubuntu/Programs/medusa-1.0/scripts/rungridmix_2.sh /input1 /output1</command>
+    <input>/input1</input>
+    <output>/output1</output>
+  </job>
+  <!-- <job> -->
+  <!--   <id>2</id> -->
+  <!--   <command>/home/xubuntu/Programs/medusa-1.0/scripts/rungridmix_2.sh /input2 /output2</command> -->
+  <!--   <input>/input2</input> -->
+  <!--   <output>/output2</output> -->
+  <!-- </job> -->
+  <!-- <job> -->
+  <!--   <id>3</id> -->
+  <!--   <command>/home/xubuntu/Programs/medusa-1.0/scripts/rungridmix_2.sh /input3 /wiki&#45;output3</command> -->
+  <!--   <input>/input3</input> -->
+  <!--   <output>/wiki&#45;output3</output> -->
+  <!-- </job> -->
+  <!-- <aggregator> -->
+  <!--   <id>4</id> -->
+  <!--   <command>/home/xubuntu/Programs/medusa-1.0/scripts/rungridmix_2.sh "/output1 /output2" /aggregate&#45;output</command> -->
+  <!--   <input>/output1 /output2</input> -->
+  <!--   <output>/aggregate&#45;output</output> -->
+  <!-- </aggregator> -->
+</data>

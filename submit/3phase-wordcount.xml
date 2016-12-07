@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<data>
+  <job>
+    <command>
+/home/vagrant/Programs/hadoop/bin/hadoop jar /home/vagrant/Programs/hadoop/wordcount.jar -libjars $HADOOP_HOME/share/hadoop/tools/lib/hadoop-distcp-2.6.0.jar -hosts hadoop-coc-2 /input1 /outputmp /output1</command>
+    <input>/input</input>
+    <output>/output1</output>
+  </job>
+  <!-- <job> -->
+  <!--   <command>/root/Programs/hadoop/bin/hadoop jar /root/Programs/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.5.0.jar wordcount /wiki3 /wiki-output3</command> -->
+  <!--   <input>/wiki3</input> -->
+  <!--   <output>/wiki-output3</output> -->
+  <!-- </job> -->
+  <!-- <aggregator> -->
+  <!--   <command>/root/Programs/hadoop/bin/hadoop jar /root/Programs/hadoop/wordcountaggregator.jar /wiki-output,/wiki-output2,/wiki-output3 /aggregate-output</command> -->
+  <!--   <input>/wiki-output /wiki-output2 /wiki-output3</input> -->
+  <!--   <output>/aggregate-output</output> -->
+  <!-- </aggregator> -->
+</data>

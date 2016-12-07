@@ -1,0 +1,26 @@
+{
+    "blocksize": 64000000,
+    "clusters": [
+        "s8",
+        "s9",
+	"s11"
+    ],
+    "digests_fault": false,
+    "execution_mode": "process",
+    "faults": 1,
+    "faults_left": 0,
+    "hdfs_port": 9000,
+    "httpfs_port": 14000,
+    "httpfs_used": false,
+    "local_copy": false,
+    "namenode_address": "172.16.100.5",
+    "packet_size": [
+        "400",
+        "800",
+        "1200"
+    ],
+    "ranking_scheduler": "prediction",
+    "relaunch_job_same_cluster": false,
+    "digest_command": "-text",
+    "verbose": false
+}
