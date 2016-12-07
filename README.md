@@ -1,9 +1,10 @@
 # Overview
 
-This is a project that manages Hadoop MR instances in several clusters.
-This app manage the execution of the job and check cloud liveness. This also tolerate arbitrary faults.
+Applications such as web search and social networking have been moving from centralized to decentralized cloud architectures to improve their scalability. MapReduce, a programming framework for processing large amounts of data using thousands of machines in a single cloud, also needs to be scaled out to multiple clouds to adapt to this evolution. The challenge of building a multi-cloud distributed architecture is substantial. Notwithstanding, the ability to deal with the new types of faults introduced by such setting, such as the outage of a whole datacenter or an arbitrary fault caused by a malicious cloud insider, increases the endeavor considerably.
 
-This manual is a sum up of small notes, and some of them are hard to understand.
+In this paper we propose Medusa, a platform that allows MapReduce computations to scale out to multiple clouds and tolerate several types of faults. Our solution fulfills four objectives. First, it is transparent to the user, who writes her typical MapReduce application without modification. Second, it does not require any modification to the widely used Hadoop framework. Third, the proposed system goes well beyond the fault-tolerance offered by MapReduce to tolerate arbitrary faults, cloud outages, and even malicious faults caused by corrupt cloud insiders. Fourth, it achieves this increased level of fault tolerance at reasonable cost.
+
+The following sections show a sum up of all notes taken by me. Some of them are hard to understand.
 
 ## Installation of the Proxy
 
